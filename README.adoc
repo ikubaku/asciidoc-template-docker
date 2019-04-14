@@ -1,0 +1,43 @@
+= asciidoc-template-docker
+
+== What's this?
+Converts `user/main.adoc` to a PDF document with the code syntax highlighting and the bibliography.
+
+== Dependencies
+* git
+* docker.io
+* Any shell(probably?)
+* sudo(optional)
+
+== Usage
+
+=== Clone the repository
+[source, sh]
+----
+$ git clone https://github.com/ikubaku/asciidoc-template-docker.git
+$ cd asciidoc-template-docker
+----
+
+=== Prepare the build container image(requires internet connection)
+[source, sh]
+----
+$ sudo ./prepare.sh
+
+(wait until the script exits)
+----
+
+=== Edit the source files and build
+[source, sh]
+----
+$ your_favorite_editor user/main.adoc
+$ sudo ./build.sh
+----
+
+=== Preview / Get the PDF document
+[source, sh]
+----
+$ pdf_viewer user/main.pdf
+----
+
+== License
+Refer to `LICENSE` file in this repository.

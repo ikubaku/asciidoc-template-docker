@@ -1,0 +1,21 @@
+:toc:
+:sectnums:
+:imagesdir: /opt/build/src/img
+:source-highlighter: rouge
+:listing-caption: Code
+:bibliography-database: /opt/build/src/bib.bib
+:bibliography-locale: ja-JP
+:bibliography-style: ieee
+
+= ダミータイトル
+2019年4月30日 情報工学課程 3回 No.17122000
+？？？
+
+== 目的
+ほげふが
+
+== 理論
+foo, bar. cite:[cite1]
+
+== 参考文献
+bibliography::[]
