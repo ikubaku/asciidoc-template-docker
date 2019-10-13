@@ -1,3 +1,4 @@
+:title-page:
 :toc:
 :sectnums:
 :imagesdir: /opt/build/src/img
